@@ -25,9 +25,9 @@ microservice
 					this.getdata = function(callbackData) {
 
 						var responsePromise = $http
-								.get("https://s-apps.bsc.aws.societegenerale.com/isadco/tempAppApiGateway/api/product/isadco/tempAppProductService/products/all");
+								.get("http://ms-product-service-toto.apps.oc.smatine.com/isadco/tempAppApiGateway/api/product/isadco/tempAppProductService/products/all");
 						responsePromise.success(function(data, status, headers,
-								config) {
+								config) {isadco
 							callbackData(data);
 						});
 						responsePromise
