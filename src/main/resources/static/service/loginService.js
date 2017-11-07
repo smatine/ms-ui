@@ -90,7 +90,7 @@ microservice.service("loginService", function($http) {
 		};
 
 		var responsePromise = $http({
-			url : "https://s-apps.bsc.aws.societegenerale.com/isadco/tempAppApiGateway/api/customer/isadco/tempAppCustomerService/customerService/login",
+			url : "http://ms-api-gateway-toto.apps.oc.smatine.com/isadco/tempAppApiGateway/api/customer/isadco/tempAppCustomerService/customerService/login",
 			method : "POST",
 			data : user,
 			headers : {
@@ -117,7 +117,7 @@ microservice.service("loginService", function($http) {
 		};
 
 		var responsePromise = $http({
-			url : "https://s-apps.bsc.aws.societegenerale.com/isadco/tempAppUI/loginService/generateToken",
+			url : "http://ms-api-gateway-toto.apps.oc.smatine.com/isadco/tempAppUI/loginService/generateToken",
 			method : "POST",
 			data : user,
 			headers : {
