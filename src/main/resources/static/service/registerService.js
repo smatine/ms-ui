@@ -13,7 +13,7 @@ microservice.service("registerService", function($http, $location) {
 		};
 
 		var responsePromise = $http({
-			url : "https://s-apps.bsc.aws.societegenerale.com/isadco/tempAppApiGateway/api/customer/isadco/tempAppCustomerService/customerService/registerCustomer",
+			url : "http://ms-api-gateway-toto.apps.oc.smatine.com/isadco/tempAppApiGateway/api/customer/isadco/tempAppCustomerService/customerService/registerCustomer",
 			method : "POST",
 			data : registeruser,
 			headers : {
