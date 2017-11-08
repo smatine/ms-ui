@@ -28,7 +28,7 @@ microservice
 						var responsePromise = $http
 								.get("http://ms-api-gateway-toto.apps.oc.smatine.com/isadco/tempAppApiGateway/api/product/isadco/tempAppProductService/products/all");
 						responsePromise.success(function(data, status, headers,
-								config) {isadco
+								config) {
 							callbackData(data);
 						});
 						responsePromise
