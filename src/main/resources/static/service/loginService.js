@@ -118,7 +118,7 @@ microservice.service("loginService", function($http) {
 		};
 
 		var responsePromise = $http({
-			url : "http://http://ms-ui-toto.apps.oc.smatine.com/isadco/tempAppUI/loginService/generateToken",
+			url : "http://ms-ui-toto.apps.oc.smatine.com/isadco/tempAppUI/loginService/generateToken",
 			method : "POST",
 			data : user,
 			headers : {
