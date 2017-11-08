@@ -82,6 +82,7 @@ microservice.service("loginService", function($http) {
 	this.getIsUserLogin  =function(){
 		return isLogin;
 	}
+
 	
 	this.authenticate = function(username, password, callback) {
 		var user = {
